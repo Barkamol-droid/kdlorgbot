@@ -14,7 +14,9 @@ from telebot import types
 # =========================
 # SOZLAMALAR
 # =========================
-TOKEN = os.getenv("8760843474:AAGF0c3xMCaeHvMFTBiV096w11pUiqqLqZ4")
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
 if not TOKEN:
     raise ValueError("BOT_TOKEN topilmadi")
 
